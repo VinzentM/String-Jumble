@@ -2,7 +2,7 @@
 stringjumble.py
 Author: Vinzent Moesch
 Credit: http://stackoverflow.com/questions/931092/reverse-a-string-in-python
-
+        https://github.com/TheBigBlueBlob/String-Jumble/blob/master/stringjumble.py
 Assignment:
 
 The purpose of this challenge is to gain proficiency with 
@@ -30,4 +30,5 @@ print('You entered "{0}". Now jumble it: '.format(string))
 lis0 = list(string)
 lis1 = lis0[::-1]
 print("".join(lis1))
-num = len(lis0)
+lis2 = lis0.split
+print(' '.join(lis2))
