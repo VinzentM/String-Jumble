@@ -1,7 +1,7 @@
 """
 stringjumble.py
-Author: <your name>
-Credit: <sources>
+Author: Vinzent Moesch
+Credit: http://stackoverflow.com/questions/931092/reverse-a-string-in-python
 
 Assignment:
 
@@ -25,3 +25,9 @@ ydnah dnif yam uoy taht skcirt ro seuqinhcet wef a era erehT
 handy find may you that tricks or techniques few a are There
 erehT era a wef seuqinhcet ro skcirt taht uoy yam dnif ydnah
 """
+string = str(input("Please enter a string of text (the bigger the better): "))
+print('You entered "{0}". Now jumble it: '.format(string))
+lis0 = list(string)
+lis1 = lis0[::-1]
+print("".join(lis1))
+num = len(lis0)
