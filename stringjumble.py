@@ -33,9 +33,5 @@ print("".join(lis1))
 lis2 = string.split()
 lis2.reverse()
 print(" ".join(lis2))
-"""
-ip = "My name is X Y Z"
-words = ip.split()
-words.reverse()
-print(' '.join(words))
-"""
+lis3 = lis2[::-1]
+print(" ".join(lis3))
