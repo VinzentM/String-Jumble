@@ -30,5 +30,12 @@ print('You entered "{0}". Now jumble it: '.format(string))
 lis0 = list(string)
 lis1 = lis0[::-1]
 print("".join(lis1))
-lis2 = lis0.split
-print(' '.join(lis2))
+lis2 = string.split()
+lis2.reverse()
+print(" ".join(lis2))
+"""
+ip = "My name is X Y Z"
+words = ip.split()
+words.reverse()
+print(' '.join(words))
+"""
