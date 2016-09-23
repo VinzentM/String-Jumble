@@ -33,5 +33,4 @@ print("".join(lis1))
 lis2 = string.split()
 lis2.reverse()
 print(" ".join(lis2))
-lis3 = lis2[::-1]
-print(" ".join(lis3))
+print(' '.join(w[::-1] for w in string.split()))
